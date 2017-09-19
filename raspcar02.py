@@ -19,9 +19,9 @@ rw.start(0)
 rw.ChangeDutyCycle(0)
 
 #Left Wheel
-Motor2_input1 = 10
-Motor2_input2 =	11
-Motor2_enable = 22
+Motor2_input1 = 26
+Motor2_input2 =	13
+Motor2_enable = 5
 io.setup(Motor2_input1, io.OUT)
 io.setup(Motor2_input2, io.OUT)
 io.setup(Motor2_enable, io.OUT)
